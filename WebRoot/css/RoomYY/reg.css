@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+#admin-login-panel{
+	position: absolute;
+	width:400px;
+	height:280px;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-140px;
+	border:1px #ccc solid;
+	background-color:#fafafa;
+}
+
+#admin-login-panel h1{
+	width:400px;
+	text-align:center ;
+	line-height:50px;
+	font-size:1.6em;
+	font-weight:bold;
+	text-align:center;
+}
+
+#admin-login-panel .input-box{
+	display: block;
+	width:150px;
+	height:30px;
+	font-size:1.2em;
+	margin: 5px auto;
+	vertical-align: text-bottom;
+	text-align:center;
+
+}
+#admin-login-panel .login-box{
+	display: block;
+	width:100px;
+	height:30px;
+	font-size:1.2em;
+	margin: 10px auto;
+	
+
+}
+#admin-login-panel p{
+	font-size:1.2em;
+	text-align:center;
+}
+#department{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+color: black;
+background: #F1F1F1;
+font-size: 12px;
+line-height: 166.6%;
+text-align: center;
+}
+a {
+color: #1D50A2;
+text-decoration: none;
+}
+#Rpage {
+width: 958px;
+margin: 0 auto;
+text-align: left;
+}
+#Rheader {
+width: 100%;
+height: 80px;
+position: relative;
+font-size: 14px;
+overflow: hidden;
+}
+#Rheader .logo {
+display: block;
+position: absolute;
+left: 0;
+top: 24px;
+}
+#Rheader .slogan {
+display: block;
+width: 306px;
+height: 33px;
+white-space: nowrap;
+text-indent: 800px;
+overflow: hidden;
+position: absolute;
+left: 160px;
+top: 27px;
+}
+#Rheader .slogan, #Rbody .title .crl, #Rbody .title .crr, .ico, .btn-reg, .btn-enter, .btn-ok, #Rbody .bottom .crl, #Rbody .bottom .crr, .Succ-msg .split {
+background-image: url(../../img/global2.png);
+background-repeat: no-repeat;
+}
+#Rheader .ext {
+white-space: nowrap;
+text-align: right;
+line-height: 100px;
+}
+
+#Rbody {
+width: 100%;
+height: auto;
+font-size: 14px;
+}
+#Rbody .title {
+height: 46px;
+position: relative;
+background-color: #458DC8;
+background-position: 0 0;
+}
+#Rbody .title, .g-ipt, .g-ipt-active, .g-ipt-err, #Rbody .bottom, .Succ-msg-info .ct {
+background-image: url(../../img/bgx.png);
+background-repeat: repeat-x;
+}
+#Rbody .title .crl {
+width: 42px;
+height: 46px;
+background-position: -324px 0;
+left: 0;
+}
+#Rbody .title .crr {
+width: 4px;
+height: 46px;
+background-position: -366px 0;
+right: 0;
+}
+#Rbody .title .crl, #Rbody .title .crr {
+display: block;
+height: 46px;
+position: absolute;
+top: 0;
+}
+#Rbody .title .ext {
+float: right;
+white-space: nowrap;
+color: white;
+line-height: 46px;
+margin-right: 10px;
+}
+#Rbody .title h1 {
+line-height: 46px;
+font-size: 14px;
+font-weight: normal;
+color: white;
+text-indent: 60px;
+}
+
+#Rbody .content {
+border: gainsboro 1px solid;
+border-width: 0 1px;
+background-color: white;
+overflow: hidden;
+}
+.page, .header, .content, .footer {
+margin: auto;
+}
+.Rpage-main .collection-main {
+padding: 43px 0 35px;
+}
+.g-collection-item {
+padding-left: 340px;
+position: relative;
+zoom: 1;
+padding-bottom: 10px;
+}
+.Rpage-main .g-collection-label {
+top: 9px;
+}
+.g-collection-label {
+display: block;
+width: 335px;
+position: absolute;
+left: 0;
+top: 9px;
+text-align: right;
+}
+.Rpage-main .g-collection-label .txt-impt {
+position: relative;
+top: 2px;
+}
+.txt-err, .txt-impt {
+color: red;
+}
+.Rpage-main .collection-main .ipt-wraper {
+position: relative;
+}
+.collection-main .ipt-wraper {
+padding: 5px;
+width: 570px;
+margin-left: -5px;
+display: block;
+margin-bottom: 3px;
+}
+.Rpage-main .g-ipt {
+padding: 4px;
+}
+.g-ipt {
+border: #C1C1C1 1px solid;
+font-size: 14px;
+padding: 4px 5px 4px;
+background-color: #FBFBFB;
+background-position: 0 -72px;
+color: #444;
+}
+.collection-main .txt-info {
+font-size: 12px;
+margin-top: -4px;
+}
+.txt-info {
+color: #999;
+}
+.Rpage-main .collection-main .ipt-wraper {
+position: relative;
+}
+.collection-main .ipt-wraper {
+padding: 5px;
+width: 570px;
+margin-left: -5px;
+display: block;
+margin-bottom: 3px;
+}
+.collection-main .vcode_img {
+border: 1px solid #E7E7E7;
+vertical-align: middle;
+cursor: pointer;
+}
+.g-ipt {
+border: #C1C1C1 1px solid;
+font-size: 14px;
+padding: 4px 5px 4px;
+background-color: #FBFBFB;
+background-position: 0 -72px;
+color: #444;
+}
+.collection-main .g-ipt {
+width: 300px;
+}
+.disableMask {
+display: none;
+}
+.Rpage-main .provision {
+font-size: 12px;
+}
+.btn-reg {
+width: 104px;
+height: 38px;
+cursor: pointer;
+border: 0;
+background-position: 0 -179px;
+background-color: transparent;
+margin-top: 15px;
+}
+
+
+#Rfooter {
+text-align: center;
+line-height: 26px;
+color: #666;
+padding: 10px 0;
+clear: both;
+}
+#Rfooter a {
+color: #666;
+}

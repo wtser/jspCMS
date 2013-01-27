@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+#dataP{
+	font-size:1.2em;
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+}
+
+	
+
+table{
+
+width: 960px;
+margin:0 auto;
+font-size:1.2em;
+text-align:center;
+}
+table thead{
+	background-color:#eee;
+	color:#000;
+	border: 1px #ccc solid; 
+	font-weight:bold;
+	
+}
+tr,td,th{
+	border:1px solid #ccc;
+	height: 20px;
+	text-align: center;
+	
+	padding:5px;
+	}
+	th{
+	background-color: #eee;
+	font-weight: bold;
+text-align: center;
+	}
+	tr:hover{
+	background-color: #fafafa;
+	}
+
+
+table tr td div:hover{
+	/*border:1px solid red;*/
+
+}

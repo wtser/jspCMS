@@ -1,0 +1,72 @@
+#add-process{
+	margin:20px auto;
+	width:960px;
+	font-size:1.6em;
+	height:100px;
+	
+}
+#add-process .steps,#add-process .steps-pointer{
+float:left;
+width: 192px;	
+height:100px;
+text-align: center;
+line-height: 100px;
+}
+#add-process .steps{
+	background-color: #228391;
+	color:#eee;
+}
+#add-process .steps-disable{
+	background-color: #dedede;
+	color:#777;
+}
+#inputForm{
+	font-size:1.6em;
+	width: 960px;
+	height: 200px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+#nextUseTime,#nextInfo{
+display: inline-block;
+background-image: url(../../img/global2.png);
+background-repeat: no-repeat;
+	width: 94px;
+height: 38px;
+cursor: pointer;
+border: 0;
+background-position: -130px -285px;
+background-color: transparent;
+margin-top: 15px;
+}
+#finished{
+
+background-image: url(../../img/global2.png);
+background-repeat: no-repeat;
+	width: 94px;
+height: 38px;
+cursor: pointer;
+border: 0;
+background-position: 0px -285px;
+background-color: transparent;
+margin-top: 15px;
+	
+}
+#beforefinished,#beforeInfo{
+	display: inline-block;
+	float: left;
+background-image: url(../../img/global2.png);
+background-repeat: no-repeat;
+	width: 94px;
+height: 38px;
+cursor: pointer;
+border: 0;
+background-position: -220px -285px;
+background-color: transparent;
+margin-top: 15px;
+}
+.step-btn{
+	width:200px;margin:0 auto;
+}

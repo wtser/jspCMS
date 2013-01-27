@@ -1,0 +1,5 @@
+首页url
+http://127.0.0.1:8080/xwfb/NewsServlet?action=selectNewsIndex
+
+后台分类url
+http://127.0.0.1:8080/xwfb/SortServlet?action=selectAll

@@ -1,0 +1,88 @@
+
+body{
+	background: transparent url(../img/bg.gif) no-repeat scroll center top;
+} 
+#top{
+	width: 950px;
+	margin: 0 auto;
+}
+#top #header{
+	height: 96px;
+	position: relative;
+	background: transparent url(../img/header.gif) no-repeat scroll center top;
+}
+#top #header #logo{
+	width: 223px;
+	height: 45px;
+	position: absolute;
+	background: transparent url(../img/logo.gif) no-repeat scroll center top;
+	top:30px;
+	left:30px;
+}
+#top #header #tips{
+	color: white;
+	position: absolute;
+	top:50px;
+	right:20px;
+
+}
+#top #header #tips a:link{
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+}
+#top #header #tips a:visited{
+	color: white;
+}
+#top #header #tips a:hover{
+
+}
+#top #menu{
+	height: 50px;
+	color: white;
+	background-color: #0d5a87;
+}
+#top #menu a{
+	display: inline-block;
+	margin-left: 20px;
+}
+#top #menu a:link{
+	font-size: 2em;
+	line-height: 50px;
+	text-decoration: none;
+	color:white;
+}
+#top #menu a:visited{
+	color:white;
+}
+#top #menu a:hover{
+	color:#aaa;
+}
+#top #flashShow{
+	height: 200px;
+}
+
+
+#bottom{
+	width: 950px;
+	height: 86px;
+	margin: 0 auto;
+	background-color: #035c88;
+}
+#bottom #link{
+	color: white;
+	text-align: center;
+	padding: 15px;
+
+}
+#bottom #copyright{
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	
+}
+#bottom #link a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+}

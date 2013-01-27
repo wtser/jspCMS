@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#admin-login-panel{
+	position: absolute;
+	width:400px;
+	height:210px;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-105px;
+	border:1px #ccc solid;
+	background-color:#fafafa;
+}
+
+#admin-login-panel h1{
+	width:400px;
+	text-align:center;
+	line-height:50px;
+	font-size:1.6em;
+	font-weight:bold;
+	text-align:center;
+}
+
+#admin-login-panel .input-box{
+	display: block;
+	width:150px;
+	height:30px;
+	font-size:1.2em;
+	margin: 5px auto;
+	vertical-align: text-bottom;
+	text-align:center;
+
+}
+#admin-login-panel .login-box{
+	display: block;
+	width:100px;
+	height:30px;
+	font-size:1.2em;
+	margin: 10px auto;
+	
+
+}
+#admin-login-panel p{
+	font-size:1.2em;
+	text-align:center;
+}

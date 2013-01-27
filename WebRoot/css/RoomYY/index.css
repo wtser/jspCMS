@@ -1,0 +1,218 @@
+body{font-size: 12px;}
+a {
+color: #007BBB;
+text-decoration: none;
+}
+article, aside, footer, header, hgroup, nav, section {
+display: block;
+}
+.header .subLogo, .tab-item a, .login .hd {
+text-indent: -999em;
+overflow: hidden;
+}
+.header .subLogo, .ico, .btn, .login .hd {
+background-image: url(../../img/global_20110815.png);
+background-repeat: no-repeat;
+}
+.container {
+width: 960px;
+margin: 0 auto;
+}
+.header {
+height: 84px;
+position: relative;
+zoom: 1;
+}
+.header .logo {
+position: absolute;
+top: 23px;
+left: 0;
+}
+.header .subLogo {
+position: absolute;
+left: 170px;
+top: 25px;
+width: 260px;
+height: 40px;
+background-position: -2px -191px;
+}
+
+
+.content {
+height: 526px;
+position: relative;
+zoom: 1;
+margin-bottom: -40px;
+background-image: url(../../img/bg_20110815.jpg);
+background-repeat: no-repeat;
+}
+
+
+.tab {
+position: absolute;
+z-index: 2;
+left: 256px;
+top: 61px;
+width: 230px;
+height: 340px;
+}
+
+.tab-item a {
+display: block;
+width: 210px;
+height: 78px;
+background-image: url(../../img/tab_20110815.png);
+background-repeat: no-repeat;
+}
+
+.tab-title {
+display: none;
+}
+.tab-item .mail126 {
+background-position: 0 -78px;
+}
+.tab-item .mailyeah {
+background-position: 0px -156px;
+}
+.tab-item .mailqiye {
+background-position: 0px -234px;
+}
+
+.tab-item-on .mail163 {
+background-position: -512px 0!important;
+}
+.tab-item-on .mail126 {
+background-position: -512px -78px!important;
+}
+.tab-item-on .mailyeah {
+background-position: -512px -156px!important;
+}
+.tab-item-on .mailqiye {
+background-position: -512px -234px!important;
+}
+.tab-item .mail163 {
+background-position: 0 0;
+height: 79px;
+}
+
+
+
+.login {
+position: absolute;
+left: 464px;
+top: 50px;
+width: 500px;
+}
+
+ .login .hd {
+background-position: -384px 0;
+}
+.login .hd {
+position: relative;
+z-index: 1;
+margin-left: 41px;
+margin-top: 24px;
+width: 265px;
+height: 32px;
+}
+.login .bd {
+margin-left: 41px;
+margin-top: 6px;
+}
+.login .item {
+padding: 8px 0;
+}
+.login .item .name {
+float: left;
+width: 44px;
+line-height: 30px;
+margin-right: 5px;
+}
+ .ipt-t {
+background: #F1FAFF;
+}
+.ipt-t {
+vertical-align: middle;
+margin-right: 10px;
+border: 1px solid #878787;
+font-size: 14px;
+font-weight: bold;
+padding: 6px 3px 6px;
+width: 182px;
+}
+.showPlaceholder .placeholder {
+visibility: visible;
+cursor: text;
+}
+.placeholder {
+color: #AAA;
+font-size: 14px;
+text-indent: 8px;
+position: absolute;
+left: 3.5em;
+top: 12px;
+_top: 14px;
+_left: 0px;
+background: none;
+width: 190px;
+visibility: hidden;
+}
+.login .submit, .login .options {
+padding: 6px 0 8px 48px;
+font-size: 12px;
+}
+.login .submit .btn-submit {
+vertical-align: text-bottom;
+}
+.mail-163 .btn-submit {
+background-position: 0 0;
+}
+.btn-submit {
+font-size: 14px;
+color: white;
+font-weight: bold;
+}
+.btn {
+width: 86px;
+height: 34px;
+border: none;
+background-color: white;
+cursor: pointer;
+}
+.login .ft {
+margin-top: 8px;
+margin-left: 89px;
+color: #777;
+font-size: 14px;
+}
+.login .ft a {
+font-weight: bold;
+padding-left: 10px;
+}*/
+
+
+
+.footer {
+margin-top: 5px;
+position: relative;
+zoom: 1;
+}
+
+.copyright {
+border-top: 1px solid #EEE;
+padding: 20px 0;
+text-align: center;
+}
+
+.copy-item {
+margin-right: 10px;
+vertical-align: top;
+display: inline-block;
+display: inline;
+color: #888;
+}
+.copy-item a {
+color: #888;
+text-decoration: none;
+}
+
